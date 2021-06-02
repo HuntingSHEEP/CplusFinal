@@ -39,6 +39,14 @@ void getTable0(int *tablePointer, int tableSize){
 //================ -- ZADANIA 2 -- ==============
 void Zadania::zad2_1() {
     std::cout<<"Zadanie 2.1"<<std::endl;
+    cout<<"--------------------------------------\n"
+          "Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:\n"
+          "1. Przez wartość\n"
+          "2. Przez referencje\n"
+          "3. Przez wskaźnik\n"
+          "4. Tablice (proszę się zastanowić o co tak naprawę chodzi)\n"
+          "- nazwać program: ZadZwracanie.cc"<<endl;
+
     int a = fWartosc();
     int b;
     fReferencja(&b);
@@ -56,6 +64,9 @@ void Zadania::zad2_1() {
 
 void Zadania::zad2_2() {
     std::cout<<"Zadanie 2.2"<<std::endl;
+    cout<<"Napisz program przekazujący tablice z zachowaniem rozmiaru\n"
+          "- nazwać program: ZadPrzekazywanieTablic.cc"<<endl;
+
     //to działa dobrze
     int mojaTablica[] = {0,1,2,3,4,5};
     cout<<sizeof(mojaTablica)/sizeof(mojaTablica[0])<<endl;

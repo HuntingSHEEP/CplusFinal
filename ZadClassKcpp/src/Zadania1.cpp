@@ -51,6 +51,13 @@ void tree(){
 //================ -- ZADANIA 1 -- ==============
 void Zadania::zad1_1() {
     std::cout<<"Zadanie 1.1"<<std::endl;
+    cout<<"--------------------------------------\n"
+          "Napisać program który zawiera:\n"
+          "- funkcję main\n"
+          "- 5 innych funkcji, z czego dwie zadeklarowane jako: extern \"C\"\n"
+          "- wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main\n"
+          "- nazwać program: ZadMainExample.cc "<<endl;
+
     //int argc, char* argv[]; domyślny input podawany podczas uruchamiania programu - MAIN
     /*
     for(int i=0; i<argc; i++){

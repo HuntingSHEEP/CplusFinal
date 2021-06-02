@@ -113,8 +113,8 @@ bool ZadKcpp::coDalej() {
         return false;
     }
 
-    string dialogi[] = {"\nCo chcesz teraz uczynić?",
-                        "\n[1] Powrót do Menu Głównego."
+    string dialogi[] = {"\n=====================================\nCo chcesz teraz uczynić?",
+                        "[1] Powrót do Menu Głównego."
                         "\n[0] Koniec Programu."
     };
 
