@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ZadClassKcpp/Zadania.h"
+#include "include/Zadania.h"
 
 using namespace std;
 

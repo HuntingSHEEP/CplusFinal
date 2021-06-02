@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "Zadania.h"
+#include "../include/Zadania.h"
 
 Zadania::Zadania() {
     std::cout<<"DZIEN DOBRY W ZADANIACH!"<<std::endl;

@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "Zadania.h"
+#include "../include/Zadania.h"
 
 //================ -- ZADANIA 2 -- ==============
 void Zadania::zad2_1() {
