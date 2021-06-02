@@ -61,6 +61,7 @@ int ZadKcpp::mainMenu() {
         cin>>z;
     }while(!((97 <= z) && (z <= 123)));
 
+    system("clear");
     return z;
 }
 
@@ -99,6 +100,7 @@ void ZadKcpp::wykonajZadanie(int numerZadania) {
         case 122: endProgram = true; break;
     }
 
+    //system("clear");
 }
 
 void ZadKcpp::lifeCycle() {
@@ -127,6 +129,7 @@ bool ZadKcpp::coDalej() {
 
     }while(!((48 <= z) && (z <= 49)));
 
+    system("clear");
     if(z == 48){
         return false;
     }else{

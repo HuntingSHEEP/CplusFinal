@@ -5,7 +5,6 @@
 #ifndef CPLUSFINAL_ZADKCPP_H
 #define CPLUSFINAL_ZADKCPP_H
 
-
 #include <iostream>
 #include "Zadania.h"
 
