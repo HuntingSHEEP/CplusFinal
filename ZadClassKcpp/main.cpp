@@ -5,10 +5,8 @@
 using namespace std;
 
 int main() {
-    Zadania zadania = Zadania();
+    ZadKcpp zadKcpp = ZadKcpp();
+    zadKcpp.start();
 
-    ZadKcpp zadKcpp;
-
-    zadania.zad1_1();
     return 0;
 }

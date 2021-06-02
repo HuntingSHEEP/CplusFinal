@@ -6,7 +6,7 @@
 #include "../include/Zadania.h"
 
 Zadania::Zadania() {
-    std::cout<<"DZIEN DOBRY W ZADANIACH!"<<std::endl;
+    //std::cout<<"Konstruktor klasy: Zadania"<<std::endl;
 }
 
 

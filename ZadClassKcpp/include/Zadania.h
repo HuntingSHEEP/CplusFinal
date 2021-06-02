@@ -37,6 +37,8 @@ public:
     void zad5_4();
     void zad5_5();
     void zad5_6();
+
+    void zad3_7b();
 };
 
 

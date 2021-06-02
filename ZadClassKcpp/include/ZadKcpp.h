@@ -6,8 +6,22 @@
 #define CPLUSFINAL_ZADKCPP_H
 
 
-class ZadKcpp {
+#include <iostream>
+#include "Zadania.h"
 
+class ZadKcpp {
+public:
+    Zadania zadania;
+    bool endProgram;
+
+    ZadKcpp();
+
+    void start();
+    void lifeCycle();
+    int mainMenu();
+    void wykonajZadanie(int numerZadania);
+
+    bool coDalej();
 };
 
 

@@ -37,3 +37,5 @@ void Zadania::zad4_6() {
 void Zadania::zad4_7() {
     std::cout<<"Zadanie 4.7"<<std::endl;
 }
+
+

@@ -33,3 +33,7 @@ void Zadania::zad3_6() {
 void Zadania::zad3_7() {
     std::cout<<"Zadanie 3.7"<<std::endl;
 }
+
+void Zadania::zad3_7b() {
+    std::cout<<"Zadanie 3.7B"<<std::endl;
+}
