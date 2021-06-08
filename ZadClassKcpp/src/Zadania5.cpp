@@ -6,9 +6,7 @@
 #include "../include/Zadania.h"
 
 //================ -- ZADANIA 5 -- ==============
-void Zadania::zad5_1() {
-    std::cout<<"Zadanie 5.1"<<std::endl;
-}
+
 
 void Zadania::zad5_2() {
     std::cout<<"Zadanie 5.2"<<std::endl;
