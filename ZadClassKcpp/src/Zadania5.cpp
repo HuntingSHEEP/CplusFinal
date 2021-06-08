@@ -8,9 +8,7 @@
 //================ -- ZADANIA 5 -- ==============
 
 
-void Zadania::zad5_2() {
-    std::cout<<"Zadanie 5.2"<<std::endl;
-}
+
 
 void Zadania::zad5_3() {
     std::cout<<"Zadanie 5.3"<<std::endl;
