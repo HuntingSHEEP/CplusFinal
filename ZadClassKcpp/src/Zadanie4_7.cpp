@@ -5,6 +5,11 @@
 #include "../include/Zadania.h"
 using namespace std;
 
+#define PI 3
+#define mul(a, b) (a*b)
+#define sklejam(Q, W) (Q # W);
+
+
 void Zadania::zad4_7() {
     std::cout<<"Zadanie 4.7"<<std::endl;
     cout<<"--------------------------------------\n"
@@ -17,4 +22,18 @@ void Zadania::zad4_7() {
           "  (b) uzycie '#' i '##'\n"
           "  (a) i (b) stwórz także dla porównania bez dyrektywy preprocesora\n"
           "- nazwać program: ZadPreprocesor.cc"<<endl;
+
+    cout<<"^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"<<endl;
+    cout<<PI<<endl;
+    cout<<"MUL: "<<mul(2,3)<<"; SKLEJAM: "<< sklejam("Ala", " wraz z kotem.")
+    cout<<""<<endl;
+
+    #ifndef PI
+        cout<<"większe od 3"<<endl;
+    #elif PI == 3
+        cout<<"równe 3"<<endl;
+    #else
+        cout<<"mniejsze od 3"<<endl;
+    #endif
+
 }
